@@ -11,8 +11,11 @@ img {
 
 
 .heading {
-    background-image: url('./background.jpg');
+    background-image: url('/images/background.jpg');
     height: 300px;  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .heading h1 {
