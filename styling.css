@@ -9,6 +9,63 @@ img {
     height: 100%;
   }
 
+
+.heading {
+    background-image: url('./background.jpg');
+    height: 300px;  
+}
+
+.heading h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main_container {
+    margin-left: 40px; 
+    margin-right: 60px;
+}
+
+.main_container section {
+    padding-bottom: 40px; 
+}
+
 .computer_science{
     font-weight: bold;
+}
+
+.intro_to_cs {
+    margin-top: 30px;
+
+}
+
+.section_padding  h1 {
+    padding-bottom: 20px;
+}
+
+.section_padding  h3 {
+    padding-bottom: 20px;
+}
+
+.section_padding  p {
+    padding-bottom: 20px;
+}
+
+.image_centering {
+margin-left: 260px;
+padding-bottom: 30px;
+}
+
+
+.algorithm {
+    display: flex;    
+}
+
+.algorithm_image img {
+    height: 220px;
+    width: 320px;
+    margin-left: 400px;
+    padding-bottom: 20px;
 }
